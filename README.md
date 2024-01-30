@@ -5,6 +5,7 @@
 > **git config --global color.ui auto** - Enable some colorization of Git output.
 
 > **git init [project name]** - Create a new local repository in the current directory. If **[project name]** is provided, Git will create a new directory named **[project name]** and will initialize a repository inside it.
+
 > **git clone <project url>** - Downloads a project with the entire history from the remote repository.                                                                                                                         |
 
 
