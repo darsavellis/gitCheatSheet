@@ -12,4 +12,14 @@
 
 > **git clone <project url>** - Downloads a project with the entire history from the remote repository.                                                                                                                         |
 
+## Day-to-day work
 
+> **git status** - Displays the status of your working directory. Options include new, staged, and modified files. It will retrieve branch name, current commit identifier, and changes pending commit.
+
+> **git add [file]** - Add a file to the **staging area**. Use. in place of the full file path to add all changed files from the **current directory down** into the **directory tree**.
+
+> **git commit** - Create a new commit from changes added to the **staging area**. The **commit** must have a message!
+
+## Inspect history
+
+> **git log [-n count]** - List commit history of current branch. **-n count** limits list to last **n** commits.
