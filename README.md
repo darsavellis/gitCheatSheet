@@ -1,4 +1,5 @@
 # Git Cheat Sheet
+## Git configuration
 | **Command** | **Description** |
 |---|---|
 | git config --global user.name "Your Name" | Set the name that will be attached to your commits and tags. |
