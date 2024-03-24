@@ -44,3 +44,14 @@
 > 
 >**modified** (англ. «изменённый»)
 >Состояние modified значит, что Git сравнил содержимое файла с последней сохранённой версией и нашёл отличия. Например, файл был закоммичен и после этого изменён. 
+
+
+## Жизненный цикл файлов в git
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git commit"     --> tracked;
+  staged    -- "changes"        --> modified;
+  tracked  -- "changes"    --> modified;
+  modified  -- "git add"    --> staged;
+``` 
